@@ -1,0 +1,19 @@
+@import url(base.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer components {
+    .btn-danger  {
+        @apply p-5
+    }
+
+    /* Input */
+    .input {
+        @apply border-solid border-2 border-sky-500 rounded-sm outline-none
+    }
+}
