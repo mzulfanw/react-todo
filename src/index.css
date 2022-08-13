@@ -14,6 +14,6 @@
 
     /* Input */
     .input {
-        @apply border-solid border-2 border-sky-500 rounded-sm outline-none
+        @apply border-solid border-2 border-sky-500 rounded-sm outline-none px-4 py-2 w-56
     }
 }
